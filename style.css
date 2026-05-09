@@ -1,11 +1,22 @@
 body {
+    background-color: black;
+    color: white;
     font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
     text-align: center;
-    margin-top: 100px;
-    background: #f4f4f4;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
+    margin-top: 20px;
     cursor: pointer;
-  }
+}
